@@ -50,3 +50,6 @@ print("decimal value of character is :", ord(a))
 a = 65
 print("character value of decimal is :", chr(a))
 
+#isistance() function
+a,b,c = 10,10.4,'g'
+print(isinstance(a,(int,float,str)))
