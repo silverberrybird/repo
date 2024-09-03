@@ -44,8 +44,8 @@
 
 # list function
 # index function
-l=[10,20,3,2,4,5]
-print(l.index(3))
+# l=[10,20,3,2,4,5]
+# print(l.index(3))
 # print(l.index("3"))
 # print(l.index(8))
 #
@@ -64,6 +64,7 @@ print(l.index(3))
 # l=[{1,2,1},{1,2,1,1},{2,1,1}]
 # print(l.index({1,2,1}))
 # print(l.index({1,2,1,1}))
+# print(l.index({2,1,1}))
 
 # append function
 # l=[1,2,3,4,5]
@@ -74,13 +75,15 @@ print(l.index(3))
 # print(l)
 # l.append("abc")
 # print(l)
+# l.append(1+2j)
+# print(l)
 
 # extend function
 # l="abc"
 # l1=[1,2,3,4,5]
 # l1.extend(l)
 # print(l1)
-# l1.extend(10)
+# # l1.extend(10)
 # print(l1)
 # l1.extend(['a','b','c'])
 # print(l1)
@@ -109,6 +112,9 @@ print(l.index(3))
 # l.reverse()
 # print(l)
 # print(reversed(l))
+# a=reversed(l)
+# for i in a:
+#     print(i)
 
 # sort function
 # l=[1,5,6,2,3,4,8,7]
@@ -140,7 +146,8 @@ print(l.index(3))
 # l=[10,20,30,40,50]
 # l.remove(20)
 # print(l)
-# print(l.remove(200))
+# print(l.remove(30))
+# l.remove(300)
 # print(l)
 
 # clear function
@@ -154,10 +161,10 @@ print(l.index(3))
 # del a
 # print(a)
 #
-# l=[10,20,3,2,4,5]
-# del l[1]
-# print(l)
-# del l[1:3]
-# print(l)
-# del l
-# print(l)
+l=[10,20,3,2,4,5]
+del l[1]
+print(l)
+del l[1:3]
+print(l)
+del l
+print(l)
